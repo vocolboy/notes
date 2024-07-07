@@ -2,7 +2,6 @@
 
 # Same Issue
 * https://issuetracker.google.com/issues/322484741
-* 
 
 # Reappear Issue
 Using AOSP-13.0.0_r78 synced directly from Google for compilation,
@@ -34,6 +33,8 @@ I encountered this issue when input a SIM card.
 ```
 
 # Fix Step
+Inspired by https://github.com/minaripenguin/android_hardware_google_gs101-sepolicy
+
 ```diff
 device/google/gs101-sepolicy/system_ext/private/platform_app.te
 
